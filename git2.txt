@@ -1,2 +1,8 @@
 to check commit log
+
 HIIIIIIIIIIIIIIIIIIIIII
+
+An https url should attempt to contact the port 443.
+
+If it tries to contact 8000, that might indicate an intermediate proxy: check git config -l|grep -i proxy, or your environment variable (env or set|grep -i proxy)
+
